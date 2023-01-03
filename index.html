@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+
+<link rel='stylesheet' ><link rel="stylesheet" href="css/style.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+
+</head>
+<body>
+<div><p data-item='Rohit'>Reporting Tool</p></div>
+<nav id='menu'>
+  <input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label></label>
+  <ul>
+    <li><a href='#'>Release</a></li>
+
+    <li><a href='jql.html'>Custom JQL</a></li>
+    <li><a href='por.html'>POR Update</a></li>
+
+  </ul>
+</nav>
+ <p>Choose a book format</p>
+<div class="dropdown">
+     <meta charset="UTF-8">
+     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap" rel="stylesheet"><link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css'>
+     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+
+                <script src="js/index.js"></script>
+
+            <div class="select">
+               <select name="format" id="format">
+                  <option selected disabled>Select a Release</option>
+                  <option value="2023 Filters - 1/11">2023 Filters - 1/11 XM Release</option>
+                  <option value="txt">2022 Filters - 12/7 XM Release</option>
+                  <option value="epub">2022 Filters - 11/15 XM Release</option>
+                  <option value="epub">2022 Filters - 10/31 XM Release</option>
+                  <option value="epub">2022 Filters - 10/17 XM Release</option>
+                  <option value="epub">2022 Filters - 10/3 XM Release</option>
+                  <option value="epub">2022 Filters - 9/22 XM Release</option>
+                  <option value="epub">2022 Filters - 09/7 XM Release</option>
+                  <option value="epub">2022 Filters - 08/22 XM Release</option>
+                  <option value="epub">2022 Filters - 7/25 XM Release</option>
+                  <option value="epub">2022 Filters - 7/11 XM Release</option>
+                  <option value="epub">2022 Filters - 6/21 XM Release</option>
+                  <option value="txt">2022 Filters  - 6/1 XM Release</option>
+                  <option value="epub">2022 Filters - 5/16 XM Release</option>
+                  <option value="epub">2022 Filters - 5/2 XM Release</option>
+                  <option value="epub">2022 Filters - 4/18 XM Release</option>
+                  <option value="epub">2022 Filters - 4/4 XM Release</option>
+                  <option value="epub">2022 Filters - 03/22 XM Release</option>
+                  <option value="epub">2022 Filters - 03/03 XM Release</option>
+                  <option value="epub">2022 Filters - 02/23 XM Release</option>
+                  <option value="epub">2022 Filters - 02/03 XM Release</option>
+                  <option value="epub">2022 Filters - 01/24 XM Release</option>
+                  <option value="epub">2022 Filters - 01/12  XM Release</option>
+                  <option value="epub">2022 Filters - 12/15 XM Release</option>
+                  <option value="epub">2022 Filters - 12/2 XM Release</option>
+                  <option value="epub">2022 Filters - 11/10 XM Release</option>
+                  <option value="epub">2022 Filters - 10/27 XM Release</option>
+                  <option value="epub">2022 Filters - 10/13 XM Release</option>
+                  <option value="epub">2022 Filters - 10/4 (9/29) XM Release</option>
+                  <option value="epub">2022 Filters - 9/2 XM Release</option>
+                  <option value="epub">2022 Filters - 8/18 XM Release</option>
+                  <option value="epub">2022 Filters - 8/4 XM Release</option>
+                  <option value="epub">2022 Filters - 7/14 XM Release</option>
+                  <option value="epub">2022 Filters - 6/23 XM Release</option>
+                  <option value="epub">2022 Filters - 6/9 XM Release</option>
+                  <option value="epub">2022 Filters - 5/26 XM Release</option>
+                  <option value="epub">2022 Filters - 5/24 XM Release</option>
+                  <option value="epub">2022 Filters - 5/12 XM Release</option>
+                  <option value="epub">2022 Filters - 4/28 XM Release</option>
+                  <option value="epub">2022 Filters - 4/15 XM Release</option>
+                  <option value="epub">2022 Filters - 3/31 XM Release</option>
+                  <option value="epub">2022 Filters - 3/24 XM Release</option>
+                  <option value="epub">2022 Filters - 3/17 XM Release</option>
+                  <option value="epub">2022 Filters - 3/3 XM Release</option>
+                  <option value="epub">2022 Filters - 2/17 XM Release</option>
+                  <option value="epub">2022 Filters - 2/3 XM Release</option>
+                  <option value="epub">2022 Filters - 1/20 XM Release</option>
+                  <option value="epub">2022 Filters - 1/6 Release</option>
+                  <option value="epub">2022 Filters - Apple Fall NPI 2020</option>
+                  <option value="epub">2022 Filters - 12/16 XM Release</option>
+                  <option value="epub">2022 Filters - 12/10 XM Release</option>
+                  <option value="epub">2022 Filters - 12/2 XM Release</option>
+                  <option value="epub">2022 Filters - 11/19 XM Release</option>
+
+
+               </select>
+            </div><br>
+      <div class="select">
+               <select name="format">
+                  <option selected disabled>Select a FIlter</option>
+                  <option value="Overall">Overall</option>
+                 <!-- <option value="Overall E2E defects">Overall E2E defects</option>
+                  <option value="Overall CI defects">Overall CI defects</option>
+                  <option value="All Blockers">All Blockers</option>
+                  <option value="All Blockers E2E">All Blockers E2E</option>
+                  <option value="Open Blockers">Open Blockers</option>-->
+               </select>
+            </div>
+
+
+</div>
+</body>
+
+</html>
